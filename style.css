@@ -133,7 +133,6 @@ background-color: rgb(212, 57, 0);
 .actinoidy {
     color: white;
     border-radius: 2.5px;
-    border: 1px black solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
