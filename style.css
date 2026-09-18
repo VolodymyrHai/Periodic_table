@@ -1,33 +1,33 @@
 .main {
-display: grid;
-grid-template-columns: repeat(18, 75px);
-grid-auto-rows: 75px;
-gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(18, 75px);
+    grid-auto-rows: 75px;
+    gap: 4px;
 }
 
 .container{
-background-color: rgb(74, 83, 255);
-color: white;
-border-radius: 2.5px;
-justify-content: center;
-align-items: center;
+    background-color: rgb(74, 83, 255);
+    color: white;
+    border-radius: 2.5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .name{
-font-size: 10px;
-text-align: center;
+    font-size: 10px;
+    text-align: center;
 }
 
 .symbol{
-font-size: 28px;
-font-weight: bold;
-text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .number{
-top: 3px;
-left: 5px;
-font-size: 11px;
+    left: 5px;
+    font-size: 11px;
+    text-align: left;
 }
 
 
@@ -114,8 +114,7 @@ background-color: rgb(212, 57, 0);
     border-radius: 2.5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: rgb(255, 82, 111);
 }
 
@@ -134,7 +133,6 @@ background-color: rgb(212, 57, 0);
     border-radius: 2.5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: rgb(217, 75, 50);
 }
